@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>Controllers</OriginalElement>
+  <nodes>
+    <node x="1526.75" y="684.0">Controllers.studentAdd</node>
+    <node x="1121.5" y="684.0">Controllers.printStudents</node>
+    <node x="1918.1118055555557" y="684.0">Views.Driver</node>
+    <node x="776.5" y="684.0">Controllers.checkVacancy</node>
+    <node x="1281.75" y="1436.0">Views.StudentMenu</node>
+    <node x="0.0" y="414.0">Controllers.courseAdd</node>
+    <node x="88.5" y="684.0">Controllers.swopIndex</node>
+    <node x="1293.5" y="684.0">Views.registeredCourses</node>
+    <node x="419.5" y="684.0">Controllers.deregisterCourse</node>
+    <node x="941.5" y="684.0">Controllers.registerCourse</node>
+    <node x="1138.265972222222" y="0.0">Models.Course</node>
+    <node x="615.5" y="684.0">Controllers.changeIndex</node>
+    <node x="1997.0" y="414.0">Views.studentLogin</node>
+    <node x="1820.0" y="414.0">Views.adminLogin</node>
+    <node x="1520.0" y="248.0">Models.Student</node>
+    <node x="1170.0" y="868.0">Models.Manager</node>
+    <node x="249.5" y="684.0">Controllers.updateCourse</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Views.adminLogin" target="Models.Manager">
+      <point x="-52.33333333333326" y="27.0" />
+      <point x="1846.1666666666667" y="664.0" />
+      <point x="1840.078472222222" y="664.0" />
+      <point x="1840.078472222222" y="818.0" />
+      <point x="1370.475" y="818.0" />
+      <point x="78.97499999999991" y="-259.0" />
+    </edge>
+    <edge source="Models.Manager" target="Controllers.changeIndex">
+      <point x="-54.674999999999955" y="-259.0" />
+      <point x="1236.825" y="798.0" />
+      <point x="686.0" y="798.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="Models.Manager" target="Views.StudentMenu">
+      <point x="60.75" y="259.0" />
+      <point x="0.0" y="-27.0" />
+    </edge>
+    <edge source="Views.StudentMenu" target="Models.Manager">
+      <point x="-47.0" y="-27.0" />
+      <point x="1305.25" y="1411.0" />
+      <point x="1230.75" y="1411.0" />
+      <point x="-60.75" y="259.0" />
+    </edge>
+    <edge source="Views.adminLogin" target="Views.Driver">
+      <point x="52.33333333333326" y="27.0" />
+      <point x="1950.8333333333333" y="664.0" />
+      <point x="1973.9868055555557" y="664.0" />
+      <point x="-18.625" y="-27.0" />
+    </edge>
+    <edge source="Models.Manager" target="Controllers.swopIndex">
+      <point x="-103.27500000000009" y="-259.0" />
+      <point x="1188.225" y="838.0" />
+      <point x="159.0" y="838.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="Models.Manager" target="Controllers.courseAdd">
+      <point x="-115.42500000000007" y="-259.0" />
+      <point x="1176.0749999999998" y="848.0" />
+      <point x="78.0" y="848.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="Models.Manager" target="Controllers.studentAdd">
+      <point x="30.375" y="-259.0" />
+      <point x="1321.875" y="778.0" />
+      <point x="1604.75" y="778.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="Models.Manager" target="Views.registeredCourses">
+      <point x="6.0750000000000455" y="-259.0" />
+      <point x="1297.575" y="758.0" />
+      <point x="1385.5" y="758.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="Models.Manager" target="Controllers.printStudents">
+      <point x="-6.0750000000000455" y="-259.0" />
+      <point x="1285.425" y="758.0" />
+      <point x="1197.5" y="758.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="Controllers.studentAdd" target="Models.Student">
+      <point x="0.0" y="-27.0" />
+      <point x="1604.75" y="664.0" />
+      <point x="1555.0" y="664.0" />
+      <point x="-105.0" y="193.0" />
+    </edge>
+    <edge source="Views.studentLogin" target="Models.Manager">
+      <point x="52.33333333333326" y="27.0" />
+      <point x="2127.833333333333" y="664.0" />
+      <point x="2108.6875" y="664.0" />
+      <point x="2108.6875" y="848.0" />
+      <point x="1406.925" y="848.0" />
+      <point x="115.42499999999995" y="-259.0" />
+    </edge>
+    <edge source="Models.Manager" target="Models.Student">
+      <point x="42.52500000000009" y="-259.0" />
+      <point x="1334.025" y="788.0" />
+      <point x="1693.25" y="788.0" />
+      <point x="1693.25" y="664.0" />
+      <point x="1625.0" y="664.0" />
+      <point x="-35.0" y="193.0" />
+    </edge>
+    <edge source="Models.Manager" target="Controllers.updateCourse">
+      <point x="-91.125" y="-259.0" />
+      <point x="1200.375" y="828.0" />
+      <point x="324.0" y="828.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="Models.Manager" target="Controllers.registerCourse">
+      <point x="-18.22499999999991" y="-259.0" />
+      <point x="1273.275" y="768.0" />
+      <point x="1021.5" y="768.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="Models.Student" target="Models.Course">
+      <point x="-70.0" y="-193.0" />
+      <point x="1590.0" y="218.0" />
+      <point x="1295.015972222222" y="218.0" />
+      <point x="52.25" y="94.0" />
+    </edge>
+    <edge source="Models.Manager" target="Models.Course">
+      <point x="18.22499999999991" y="-259.0" />
+      <point x="1309.725" y="768.0" />
+      <point x="1488.0" y="768.0" />
+      <point x="1488.0" y="228.0" />
+      <point x="1260.1826388888887" y="228.0" />
+      <point x="17.41666666666663" y="94.0" />
+    </edge>
+    <edge source="Views.studentLogin" target="Views.Driver">
+      <point x="0.0" y="27.0" />
+      <point x="2075.5" y="664.0" />
+      <point x="2048.4868055555557" y="664.0" />
+      <point x="55.875" y="-27.0" />
+    </edge>
+    <edge source="Models.Manager" target="Controllers.deregisterCourse">
+      <point x="-66.82500000000005" y="-259.0" />
+      <point x="1224.675" y="808.0" />
+      <point x="507.5" y="808.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="Models.Manager" target="Views.Driver">
+      <point x="91.125" y="-259.0" />
+      <point x="1382.625" y="828.0" />
+      <point x="1942.9451388888888" y="828.0" />
+      <point x="-49.66666666666674" y="27.0" />
+    </edge>
+    <edge source="Controllers.courseAdd" target="Models.Course">
+      <point x="0.0" y="-27.0" />
+      <point x="78.0" y="208.0" />
+      <point x="1155.6826388888887" y="208.0" />
+      <point x="-87.08333333333334" y="94.0" />
+    </edge>
+    <edge source="Models.Manager" target="Controllers.checkVacancy">
+      <point x="-42.52500000000009" y="-259.0" />
+      <point x="1248.975" y="788.0" />
+      <point x="848.5" y="788.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="Views.Driver" target="Models.Manager">
+      <point x="0.0" y="27.0" />
+      <point x="1992.6118055555557" y="838.0" />
+      <point x="1394.775" y="838.0" />
+      <point x="103.27500000000009" y="-259.0" />
+    </edge>
+    <edge source="Views.Driver" target="Views.adminLogin">
+      <point x="-55.875" y="-27.0" />
+      <point x="1936.7368055555557" y="664.0" />
+      <point x="1898.5" y="664.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="Views.StudentMenu" target="Views.Driver">
+      <point x="47.0" y="-27.0" />
+      <point x="1399.25" y="1411.0" />
+      <point x="2000.2001388888891" y="1411.0" />
+      <point x="2000.2001388888891" y="838.0" />
+      <point x="2042.2784722222223" y="838.0" />
+      <point x="49.66666666666674" y="27.0" />
+    </edge>
+    <edge source="Views.Driver" target="Views.studentLogin">
+      <point x="18.625" y="-27.0" />
+      <point x="2011.2368055555557" y="664.0" />
+      <point x="2023.1666666666667" y="664.0" />
+      <point x="-52.33333333333326" y="27.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="179.0" y="345.0" />
+  <SelectedNodes>
+    <node>Views.StudentMenu</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

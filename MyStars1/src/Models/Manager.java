@@ -46,7 +46,7 @@ public class Manager {
 
 	/**
 	 * Checks the local time and parses it
-	 * @param time
+	 * @param time current local time
 	 * @return boolean true or false if time is in the range
 	 */
 	public boolean checkTime(LocalTime time) 
@@ -76,7 +76,7 @@ public class Manager {
 
 	/**
 	 * Calls the registerCourse class through the addCourse function
-	 * @param index
+	 * @param index gets
 	 */
 	public static void addCourse(String index)
 	{
@@ -86,7 +86,7 @@ public class Manager {
 
 	/**
 	 * Calls the deregisterCourse class through the dropCourse function
-	 * @param index
+	 * @param index current index
 	 * @throws IOException
 	 */
 	public static void dropCourse(String index) throws IOException {

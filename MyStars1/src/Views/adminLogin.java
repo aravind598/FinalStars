@@ -6,7 +6,7 @@ import Models.Manager;
 
 public class adminLogin {
     /**
-     * Checks whether the Admin can log in with the correct username & password
+     * Checks whether the Admin can log in with the correct username and password
      * @param manager
      */
     public static void main(Manager manager)  {
