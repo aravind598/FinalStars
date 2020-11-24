@@ -11,7 +11,7 @@ import Models.Student;
 public class courseAdd {
     /**
      * Main function to add courses to courses.txt in the form of a string
-     * @param courses
+     * @param courses the Arraylist of courses is passed though as the parameter here
      */
     public static void main(ArrayList courses)  {
         String Save = "";

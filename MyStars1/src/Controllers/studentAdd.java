@@ -10,7 +10,7 @@ import Models.Student;
 public class studentAdd {
     /**
      * Add Students to the STARS system by Admin
-     * @param students
+     * @param students takes in an Arraylist of Students Object types
      */
     public static void main(ArrayList students)  {
         String Save = "";

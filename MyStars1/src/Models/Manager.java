@@ -76,7 +76,7 @@ public class Manager {
 
 	/**
 	 * Calls the registerCourse class through the addCourse function
-	 * @param index gets
+	 * @param index current index of the course
 	 */
 	public static void addCourse(String index)
 	{
@@ -86,8 +86,8 @@ public class Manager {
 
 	/**
 	 * Calls the deregisterCourse class through the dropCourse function
-	 * @param index current index
-	 * @throws IOException
+	 * @param index current index of the course
+	 * @throws IOException if any error occurs during the program
 	 */
 	public static void dropCourse(String index) throws IOException {
 		Controllers.deregisterCourse.main(index);
@@ -96,7 +96,7 @@ public class Manager {
 
 	/**
 	 * Calls the registeredCourse class through the function
-	 * @param index
+	 * @param index current index of the course
 	 */
 	public static void displayRegisteredCourse(String index)
 	{
@@ -106,7 +106,7 @@ public class Manager {
 
 	/**
 	 * Calls the checkvacancy class through the function
-	 * @param index
+	 * @param index current index of the course
 	 */
 	public static void checkVacancies(String index)
 	{
@@ -116,8 +116,8 @@ public class Manager {
 
 	/**
 	 * Calls the changeIndex class through the function
-	 * @param index
-	 * @throws IOException
+	 * @param index current index of the course
+	 * @throws IOException if any error occurs during the program
 	 */
 	public static void changeIndex(String index) throws IOException {
 		Controllers.changeIndex.main(index);
@@ -125,7 +125,7 @@ public class Manager {
 
 	/**
 	 * Calls the studentMenu class through the function
-	 * @param index
+	 * @param index current index of the course
 	 */
 	public void studentMenu(String index)
 	{
@@ -134,8 +134,8 @@ public class Manager {
 
 	/**
 	 * Calls the swopIndex class through the function
-	 * @param index
-	 * @throws IOException
+	 * @param index current index of the course
+	 * @throws IOException if any error occurs during the program
 	 */
 	public static void swopIndex(String index) throws IOException {
 		Controllers.swopIndex.main(index);
@@ -272,7 +272,7 @@ public class Manager {
 
 	/**
 	 * private instance to update a course in the STARS application
-	 * @throws IOException
+	 * @throws IOException if any error occurs during the program
 	 */
 	public static void updateCourse() throws IOException {
 		Controllers.updateCourse.main(null);

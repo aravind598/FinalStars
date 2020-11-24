@@ -9,7 +9,8 @@ import Models.Student;
 public class registerCourse {
     /**
      * Main function is to allow Students to register the courses that they choose
-     * @param index
+     * @param index the parameter of the course index is taken in
+     *
      */
     public static void main(String index)  {
         Set<String> hashSet = new HashSet<String>();

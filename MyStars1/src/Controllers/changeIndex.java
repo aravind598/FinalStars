@@ -13,8 +13,8 @@ public class changeIndex {
     /**
      * A main type of function
      * Allows us to change the index for each individual
-     * @param index
-     * @throws IOException
+     * @param index the parameter of the course index is taken in
+     * @throws IOException throws IOexception if any issue occurs
      */
     public static void main(String index) throws IOException {
         Scanner sc = new Scanner(System.in);

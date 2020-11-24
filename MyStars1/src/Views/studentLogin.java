@@ -8,7 +8,7 @@ import Models.Manager;
 public class studentLogin {
     /**
      * Allow the Student to login by checking the username and password of thelogin interface for student
-     * @param manager
+     * @param manager for an instance of Manager that needs to be passed through to this Main function
      */
     public static void main(Manager manager)  {
         Scanner sc = new Scanner(System.in);

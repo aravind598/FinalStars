@@ -9,7 +9,7 @@ import Models.Student;
 public class StudentMenu {
     /**
      * Display the Student Menu allowing the Student to Choose his options
-     * @param index
+     * @param index the parameter of the course index is taken in
      */
     public static void main(String index){
         Scanner sc = new Scanner(System.in);

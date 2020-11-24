@@ -10,7 +10,7 @@ import Models.Student;
 public class checkVacancy {
     /**
      * Main Function to check the vacancy of each course
-     * @param index
+     * @param index Here the param is used as a placeholder and not used in this function
      */
     public static void main(String index){
         Scanner sc = new Scanner(System.in);

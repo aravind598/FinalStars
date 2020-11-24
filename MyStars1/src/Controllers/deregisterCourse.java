@@ -12,8 +12,8 @@ import Models.Student;
 public class deregisterCourse {
     /**
      * Main function to Deregister Courses for Students
-     * @param index
-     * @throws IOException
+     * @param index the parameter of the course index is taken in
+     * @throws IOException throws IOexception if any issue occurs
      */
     public static void main(String index) throws IOException {
         Set<String> hashSet = new HashSet<String>();

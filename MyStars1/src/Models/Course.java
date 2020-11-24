@@ -8,10 +8,10 @@ public class Course {
 
 	/**
 	 * Course getter Class, Houses all the getter functions of the class Course
-	 * @param courseCode
-	 * @param school
-	 * @param indexNumber
-	 * @param vacancy
+	 * @param courseCode The coursecode in courses.txt
+	 * @param school The school of which the student is from
+	 * @param indexNumber the indexnumber of the course selected
+	 * @param vacancy the no of vacancies of the courses
 	 */
 	public Course(String courseCode, String school, int indexNumber, int vacancy) {
 		this.courseCode = courseCode;

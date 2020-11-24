@@ -12,8 +12,8 @@ import java.nio.file.Paths;
 public class updateCourse {
     /**
      * Main function for admin to update the current courses
-     * @param agrs
-     * @throws IOException
+     * @param agrs passing through as array of string type of name args into main
+     * @throws IOException throws IOexception if any issue occurs
      */
     public static void main(String agrs[]) throws IOException {
         Scanner sc = new Scanner(System.in);

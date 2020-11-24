@@ -8,7 +8,8 @@ public class Driver {
 
 	/**
 	 * Main Class to Drive the entire STARS Application
-	 * @param agrs
+	 * @param agrs passing through as array of string type of name args into main
+	 *
 	 */
    public static void main(String agrs[]) {
 	  

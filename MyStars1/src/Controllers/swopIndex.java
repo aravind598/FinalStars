@@ -12,8 +12,8 @@ import Models.Student;
 public class swopIndex {
     /**
      * Swap Index with another students from another student
-     * @param index
-     * @throws IOException
+     * @param index @param index the parameter of the course index is taken in
+     * @throws IOException throws IOexception if any issue occurs
      */
     public static void main(String index) throws IOException {
         String studentID;

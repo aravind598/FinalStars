@@ -8,7 +8,7 @@ import Models.Student;
 public class printStudents {
     /**
      * Main function to printStudents for the Admin from Students.txt and Registered Courses.txt
-     * @param args
+     * @param args passing through as array of string type of name args into main
      */
     public static void main(String args[]){
         Set<String> hashSet = new HashSet<String>();

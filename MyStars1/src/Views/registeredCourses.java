@@ -10,7 +10,7 @@ import Models.Student;
 public class registeredCourses {
     /**
      * Finding all Registered Courses
-     * @param index
+     * @param index the parameter of the course index is taken in
      */
     public static void main(String index)  {
         Set<String> hashSet = new HashSet<String>();

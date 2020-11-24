@@ -7,7 +7,7 @@ import Models.Manager;
 public class adminLogin {
     /**
      * Checks whether the Admin can log in with the correct username and password
-     * @param manager
+     * @param manager for an instance of Manager that needs to be passed through to this Main function
      */
     public static void main(Manager manager)  {
         Scanner sc = new Scanner(System.in);

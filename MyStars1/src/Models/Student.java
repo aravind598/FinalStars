@@ -16,11 +16,11 @@ public class Student {
 
 	/**
 	 * Setter method for Student for the following params
-	 * @param name
-	 * @param matricNumber
-	 * @param gender
-	 * @param nationality
-	 * @param password
+	 * @param name set the student name as name
+	 * @param matricNumber set the student matric number as matricNumber
+	 * @param gender set the student gender as gender
+	 * @param nationality set the student nationality as nationality
+	 * @param password set the student password number as password
 	 */
 	public Student( String name, String matricNumber, String gender, String nationality, String password) {
 		this.studentID = matricNumber;
@@ -42,7 +42,7 @@ public class Student {
 
 	/**
 	 * Getter method for Student name
-	 * @return void
+	 * @return name
 	 */
 	public String getName() {
 		return name;
@@ -50,7 +50,7 @@ public class Student {
 
 	/**
 	 * Getter method for Matric Number
-	 * @return void
+	 * @return matricnumber
 	 */
 	public String getMatricNumber() {
 		return matricNumber;
@@ -66,7 +66,7 @@ public class Student {
 
 	/**
 	 * Getter method for Student Nationality
-	 * @return
+	 * @return nationality
 	 */
 	public String getNationality() {
 		return nationality;
@@ -82,7 +82,7 @@ public class Student {
 
 	/**
 	 * Gets Password
-	 * @return
+	 * @return password
 	 */
 	public String getPassword() {
 		return password;
@@ -90,7 +90,7 @@ public class Student {
 
 	/**
 	 * Adding course c
-	 * @param c
+	 * @param c is the course that needs to be added
 	 */
 	public void addCourse(Course c)
 	{
