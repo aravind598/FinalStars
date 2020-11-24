@@ -332,13 +332,13 @@ public class Manager {
 	    int start, end;
 	    System.out.print("Enter start value for student time (hour): ");
 	    start = sc.nextInt();
-	    while(start < 0 || start > 24){
+	    while(start < 0 || start >= 24){
 			System.out.print("Enter start value for student time (hour): ");
 			start = sc.nextInt();
 		}
 		System.out.print("Enter end value for student time (hour): ");
 		end = sc.nextInt();
-		while(end < 0 || end > 24 || end < start){
+		while(end < 0 || end >= 24 || end < start){
 			System.out.print("Enter end value for student time (hour): ");
 			end = sc.nextInt();
 		}
