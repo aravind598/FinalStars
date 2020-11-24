@@ -128,7 +128,7 @@ public class Student {
 
 	/**
 	 * Dropping Course Function
-	 * @param courseCode
+	 * @param courseCode current course code used to remove the current course
 	 */
 	public void dropCourse(String courseCode)
 	{
@@ -143,7 +143,7 @@ public class Student {
 
 	/**
 	 * Check coursecode if it is equals to a course code it returns true otherwise false
-	 * @param courseCode
+	 * @param courseCode needed for checking the course code
 	 * @return boolean
 	 */
 	public boolean checkCourseCode(String courseCode)
@@ -160,8 +160,8 @@ public class Student {
 
 	/**
 	 * Allowing the change of the index number from the current to the new index for course
-	 * @param indexNumber
-	 * @param newIndexNumber
+	 * @param indexNumber current index for course
+	 * @param newIndexNumber new index for same course
 	 */
 	public void changeIndex(int indexNumber, int newIndexNumber) 
 	{
@@ -176,7 +176,7 @@ public class Student {
 
 	/**
 	 * Checks index number if it is equals to a index number it returns true otherwise false
-	 * @param indexNumber
+	 * @param indexNumber current index number for the course
 	 * @return boolean
 	 */
 	public boolean checkCourseIndex(int indexNumber)

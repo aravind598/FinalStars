@@ -54,7 +54,7 @@ public class Course {
 
 	/**
 	 * Gets the new index number
-	 * @param newIndexNumber
+	 * @param newIndexNumber param is the new index number for the course
 	 */
 	public void changeIndexNumber(int newIndexNumber)
 	{
